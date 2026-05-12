@@ -4,6 +4,8 @@
 
 # Namaah ATLAS
 
+Live demo: https://presentation-lilac-alpha.vercel.app/
+
 A Vite + React presentation web app that showcases Namaah ATLAS with animated sections and locally hosted image assets.
 
 ## Run locally
