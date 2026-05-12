@@ -54,7 +54,7 @@ const ImageStrip = ({ images }: { images: string[] }) => (
 );
 
 const Section = ({ title, subtitle, number, children, className = "", id = "", images }: { title: string, subtitle?: string, number: string, children: ReactNode, className?: string, id?: string, images?: string[] }) => (
-  <section id={id} className={`min-h-screen relative flex flex-col border-b slide-border overflow-hidden ${className}`}>
+  <section id={id} className={`min-h-screen snap-start scroll-mt-24 relative flex flex-col border-b slide-border overflow-hidden ${className}`}>
     <SlideNumber number={number} />
     <div className="flex-1 w-full max-w-7xl mx-auto px-6 lg:px-12 py-24 flex flex-col justify-center relative">
       <div className="mb-8 relative z-10">
