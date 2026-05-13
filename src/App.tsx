@@ -261,19 +261,24 @@ export default function App() {
       >
         <div className="space-y-0">
           <FeatureItem 
-            label="Neural Movies" 
-            description="Create cinematic scenes from simple text prompts."
-            detail="Our engine handles lighting and camera movement automatically, giving you professional video results in seconds."
+            label="Voice & Audio Layer"
+            description="Your video speaks before you ask it to."
+            detail="NARRATION, DIALOGUE, LIP SYNC, AND SOUND EFFECTS ARE GENERATED AND SYNCHRONISED TO YOUR SCENES — POWERED BY THE MOST NATURAL AI VOICES AVAILABLE."
           />
           <FeatureItem 
-            label="Viral Clips" 
-            description="Generate thumb-stopping social content for any brand."
-            detail="Optimized for vertical and wide formats, perfect for modern storytelling platforms."
+            label="Namaah Playground"
+            description="Your infinite canvas. Your creative space."
+            detail="PLACE GENERATION FRAMES, ARRANGE SCENES, ANNOTATE WITH YOUR TEAM, AND TRIGGER IMAGE OR VIDEO GENERATION DIRECTLY ON THE CANVAS — WITHOUT EVER LEAVING YOUR WORKSPACE."
           />
           <FeatureItem 
-            label="Smart Voiceover" 
-            description="Realistic narration and sound effects synced to your video."
-            detail="AI voices that sound human, combined with background audio that matches the mood of your scene."
+            label="Enhancement Suite"
+            description="Raw output is just the starting point."
+            detail="UPSCALE TO 4K, SMOOTH MOTION, CORRECT COLOR, REMOVE NOISE, AND APPLY CINEMATIC GRADING — ALL AUTOMATED AND APPLIED AFTER GENERATION WITHOUT MANUAL EDITING."
+          />
+          <FeatureItem 
+            label="Subtitle & Dubbing Engine"
+            description="One video. Every language."
+            detail="AUTO-GENERATED CAPTIONS ARE BURNED INTO YOUR VIDEO IN SECONDS. MULTILINGUAL DUBBED TRACKS ARE PRODUCED FROM YOUR ORIGINAL SCRIPT WITH VOICE AND LIP SYNC ALIGNED."
           />
         </div>
       </Section>
