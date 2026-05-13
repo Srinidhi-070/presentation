@@ -260,6 +260,22 @@ export default function App() {
         ]}
       >
         <div className="space-y-0">
+          <FeatureItem
+            label="Prompt to Production"
+            description="Type a thought. Get a finished video."
+            detail="YOUR WORDS ARE TRANSLATED INTO SCRIPTS, SCENES, CHARACTERS, AND AUDIO — ALL IN ONE PIPELINE WITH ZERO MANUAL STEPS IN BETWEEN."
+          />
+          <FeatureItem
+            label="Intelligent Scene Builder"
+            description="Every prompt becomes a structured story."
+            detail="OUR ENGINE BREAKS YOUR INPUT INTO SCENES, APPLIES NARRATIVE FRAMEWORKS, AND GENERATES STORYBOARD KEYFRAMES AUTOMATICALLY BEFORE A SINGLE FRAME IS RENDERED."
+          />
+          <FeatureItem
+            label="AI Character Studio"
+            description="Generate, select, and lock in your cast."
+            detail="DESCRIBE A CHARACTER OR LET THE SYSTEM CREATE ONE. STORE THEM IN YOUR LIBRARY AND MAINTAIN VISUAL CONSISTENCY ACROSS EVERY SCENE AND PROJECT."
+          />
+
           <FeatureItem 
             label="Voice & Audio Layer"
             description="Your video speaks before you ask it to."
